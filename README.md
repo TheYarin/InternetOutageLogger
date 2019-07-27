@@ -9,14 +9,14 @@ InternetOutageLogger simply pings 1.1.1.1 and if no response is received in a ti
 # Requirements
 
 - Linux (because of the lazy ping implementation)
-- Python
+- Python 3
 
 # Usage
 
 Run:
 
 ```bash
-python ./InternetOutageLogger.py
+python3 ./InternetOutageLogger.py
 ```
 
 An `outages.db` file will be created locally.

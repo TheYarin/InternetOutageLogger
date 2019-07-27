@@ -32,7 +32,7 @@ class OutageReporter(object):
 
     @staticmethod
     def _logToStdout(message):
-        print(OutageReporter._datetimeToStdoutStringFormat(datetime.now()) + ' ' + message)
+        print(OutageReporter._datetimeToStdoutStringFormat(datetime.now()) + ' ' + message, flush=True)
     
     @staticmethod
     def _datetimeToStdoutStringFormat(datetime):
